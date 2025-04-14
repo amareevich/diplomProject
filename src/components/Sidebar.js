@@ -250,7 +250,7 @@ const Sidebar = () => {
   return (
     <Box sx={{ p: 2, height: '100%', overflowY: 'auto' }}>
       <Typography variant="h6">
-        Привет, {currentUserNickname}
+        {currentUserNickname}
       </Typography>
 
       {info?.about && (
